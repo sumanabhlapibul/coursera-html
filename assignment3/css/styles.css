@@ -1,0 +1,138 @@
+body {
+	font-family: Arial, Heveltica, sans-serif;
+	font-size: 16px;
+	background-color:#C9E8F7;
+	}
+
+#header-nav{
+	border: 1px solid black;
+	background-color: #337AB7;
+}
+
+.navbar-brand {
+	padding-top:15px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	margin-right:0px;
+	height:70px;
+	width:100%;
+}
+
+.navbar-brand h1 { /*Food, LLC*/
+color: #fff;
+font-size:1.5em;
+line-height:0.75;
+margin-top:10px;
+width:200px;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration :none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
+	border: 2px solid ;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+  color: #fff;
+ 
+}
+
+#nav-list a {
+	text-align :center;
+	font-size : 1.2em;
+	background-color: #21A4D8;
+	color:#fff;
+	border: 1px solid #337AB7 ;
+
+}
+
+#menu-categories-title {
+	margin-bottom: 30px;	
+}
+
+.menu {
+	background-color : #337AB7;
+	margin-bottom:20px;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+//********** Desktop version **********/
+@media (min-width: 1200px) {
+	
+  
+}
+
+
+/********** Tablet Version **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+	margin-left:0;
+	margin-right:0;
+  }
+  .navbar-brand h1 { /* Food, LLC */
+    padding-top: 10px;
+	margin-left:15px;
+  }
+  
+}
+
+/********** Mobile Version sm**********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+	margin-left:0;
+	margin-right:0;
+  }
+  .navbar-brand h1 { /* Food, LLC */
+    padding-top: 10px;
+	margin-left:15px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+  
+
+}
+
+/********** Extra small  **********/
+@media (max-width: 767px) {
+	.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+	margin-left:0;
+	margin-right:0;
+  }
+  .navbar-brand h1 { /* Food, LLC */
+    padding-top: 10px;
+	margin-left:15px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+  
+  .col-xxs-8 {
+		position:relative;
+		min-height: 1px;
+		padding-right:15px;
+		padding-left:15px;
+		float: left;
+		width: 66.66666667%;
+
+	}
+	
+	.offset-xxs-2 {
+		margin-left: 16.66666667%;
+	}
+  
+}
+
